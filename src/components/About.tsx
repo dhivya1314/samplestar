@@ -1,8 +1,6 @@
 import { Users, Code, Beaker, BookOpen } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-gradient-subtle">
+  return <section id="about" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -32,28 +30,29 @@ const About = () => {
                   in fields ranging from climate science to drug discovery, from materials 
                   engineering to astrophysics.
                 </p>
-                <p>
-                  The name "Mirai" means "future" in Japanese, reflecting our commitment 
-                  to building the tools that will enable tomorrow's scientific breakthroughs.
-                </p>
+                <p>The name "Mirai" means "future" in Japanese, reflecting our commitment to building the tools that will enable tomorrow's scientific breakthroughs.</p>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-card rounded-xl p-6 shadow-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                <div className="text-3xl font-bold text-primary mb-2">
+              </div>
                 <div className="text-sm text-muted-foreground">Research Institutions</div>
               </div>
               <div className="bg-card rounded-xl p-6 shadow-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">10K+</div>
+                <div className="text-3xl font-bold text-primary mb-2">
+              </div>
                 <div className="text-sm text-muted-foreground">Active Researchers</div>
               </div>
-              <div className="bg-card rounded-xl p-6 shadow-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">25+</div>
-                <div className="text-sm text-muted-foreground">Countries Served</div>
+              <div className="bg-card p-6 shadow-card text-center rounded-3xl">
+                <div className="text-3xl font-bold text-primary mb-2">
+              </div>
+                <div className="text-sm text-muted-foreground">Materails modelling </div>
               </div>
               <div className="bg-card rounded-xl p-6 shadow-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">1M+</div>
+                <div className="text-3xl font-bold text-primary mb-2">
+              </div>
                 <div className="text-sm text-muted-foreground">Computations Processed</div>
               </div>
             </div>
@@ -138,8 +137,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

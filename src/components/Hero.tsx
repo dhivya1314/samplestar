@@ -1,22 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Target, Users } from "lucide-react";
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+  return <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-hero opacity-10"></div>
       
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto text-center relative z-10 px-[25px]">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl mb-6 leading-tight text-slate-700 font-bold text-center md:text-3xl">
             Advancing Science Through
             <span className="block gradient-text">Computational Innovation</span>
           </h1>
@@ -27,19 +26,11 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
-              className="hero-glow text-lg px-8 py-6"
-              onClick={() => scrollToSection('about')}
-            >
+            <Button size="lg" className="hero-glow text-lg px-8 py-6" onClick={() => scrollToSection('about')}>
               Learn More About Us
               <ArrowRight className="ml-2" size={20} />
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-8 py-6"
-            >
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6">
               Our Products
             </Button>
           </div>
@@ -78,8 +69,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
