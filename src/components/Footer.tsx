@@ -1,8 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-16">
+  return <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
@@ -53,15 +51,12 @@ const Footer = () => {
             <div className="space-y-3 text-primary-foreground/80">
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
-                <span>contact@miraidynamics.com</span>
+                <span>info@miraidynamics.com</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
-              </div>
+              
               <div className="flex items-center space-x-3">
                 <MapPin size={16} />
-                <span>Research Triangle Park, NC</span>
+                
               </div>
             </div>
           </div>
@@ -70,9 +65,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-primary-foreground/60 text-sm">
-              © 2024 Mirai Dynamics. All rights reserved.
-            </p>
+            <p className="text-primary-foreground/60 text-sm">© 2025 Mirai Dynamics. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors">
                 Privacy Policy
@@ -87,8 +80,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
