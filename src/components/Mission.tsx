@@ -1,8 +1,6 @@
 import { Rocket, Shield, Heart, Award } from "lucide-react";
-
 const Mission = () => {
-  return (
-    <section id="mission" className="py-20">
+  return <section id="mission" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -80,18 +78,11 @@ const Mission = () => {
               <h3 className="text-2xl font-bold mb-4 gradient-text">
                 Our Commitment to Science
               </h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Every product we create is designed with the scientific method at its core. 
-                We believe in transparency, reproducibility, and open collaboration. 
-                Our mission extends beyond software development to actively supporting 
-                the scientific community through education, partnerships, and continuous innovation.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">Every product we offer is designed with the scientific method at its core. We believe in transparency, reproducibility, and open collaboration. Our mission extends beyond software development to actively supporting the scientific community through skill development, partnerships, and continuous innovation.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Mission;

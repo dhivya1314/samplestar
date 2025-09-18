@@ -64,7 +64,7 @@ const Vision = () => {
                   <h3 className="text-2xl font-bold mb-4 gradient-text">
                     Transforming Research
                   </h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed">"We believe that the next great scientific breakthroughs will come from empowering every researcher with computational superpower, turning complex algorithms into simple, powerful tools."</p>
+                  <p className="text-muted-foreground text-lg leading-relaxed">"We believe that the next great scientific breakthroughs will come from empowering every researcher with computational excellence, turning complex algorithms into simple, powerful tools."</p>
                   <div className="mt-6 text-sm text-muted-foreground">
                     — Mirai Dynamics Foundation
                   </div>

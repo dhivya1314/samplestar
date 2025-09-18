@@ -6,10 +6,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About <span className="gradient-text">Mirai Dynamics</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Founded by scientists for scientists, Mirai Dynamics is at the forefront of 
-            computational innovation, transforming how research is conducted across disciplines.
-          </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Founded by scientists for scientists, Mirai Dynamics is at the forefront of computational innovation, transforming how research is conducted across all disciplines.</p>
         </div>
 
         <div className="max-w-6xl mx-auto">
@@ -30,7 +27,7 @@ const About = () => {
                   in fields ranging from climate science to drug discovery, from materials 
                   engineering to astrophysics.
                 </p>
-                <p>The name "Mirai" means "future" in Japanese, reflecting our commitment to building the tools that will enable tomorrow's scientific breakthroughs.</p>
+                
               </div>
             </div>
 
