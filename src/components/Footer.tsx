@@ -1,11 +1,15 @@
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import Logo from "@/assets/logo.png";
 const Footer = () => {
   return <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Mirai Dynamics</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={Logo} alt="Mirai Dynamics Logo" className="h-10 w-auto" />
+              <h3 className="text-2xl font-bold">Mirai Dynamics</h3>
+            </div>
             <p className="text-primary-foreground/80 leading-relaxed mb-4">
               Advancing science through computational innovation. 
               Empowering researchers worldwide with cutting-edge tools.
