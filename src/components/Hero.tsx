@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Mirai Dynamics develops cutting-edge computational products that empower researchers 
+            Mirai Dynamics offers cutting-edge computational products that empower researchers 
             and scientists to push the boundaries of discovery and innovation. Our computational 
             innovations include tools and solutions designed to accelerate scientific breakthroughs.
           </p>
