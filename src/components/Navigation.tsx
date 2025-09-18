@@ -51,7 +51,11 @@ const Navigation = () => {
             >
               About Us
             </button>
-            <Button variant="default" className="hero-glow">
+            <Button 
+              variant="default" 
+              className="hero-glow"
+              onClick={() => window.location.href = 'mailto:info@miraidynamics.com'}
+            >
               Contact Us
             </Button>
           </div>
@@ -95,7 +99,11 @@ const Navigation = () => {
               >
                 About Us
               </button>
-              <Button variant="default" className="self-start">
+              <Button 
+                variant="default" 
+                className="self-start"
+                onClick={() => window.location.href = 'mailto:info@miraidynamics.com'}
+              >
                 Contact Us
               </Button>
             </div>
