@@ -1,8 +1,6 @@
 import { Eye, Lightbulb, Globe } from "lucide-react";
-
 const Vision = () => {
-  return (
-    <section id="vision" className="py-20 bg-gradient-subtle">
+  return <section id="vision" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -66,11 +64,7 @@ const Vision = () => {
                   <h3 className="text-2xl font-bold mb-4 gradient-text">
                     Transforming Research
                   </h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
-                    "We believe that the next great scientific breakthroughs will come 
-                    from empowering every researcher with computational superpowers, 
-                    turning complex algorithms into simple, powerful tools."
-                  </p>
+                  <p className="text-muted-foreground text-lg leading-relaxed">"We believe that the next great scientific breakthroughs will come from empowering every researcher with computational superpower, turning complex algorithms into simple, powerful tools."</p>
                   <div className="mt-6 text-sm text-muted-foreground">
                     — Mirai Dynamics Foundation
                   </div>
@@ -80,8 +74,6 @@ const Vision = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Vision;
