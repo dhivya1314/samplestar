@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl mb-6 leading-tight text-slate-700 font-bold text-center md:text-3xl">
             Advancing Science Through
-            <span className="block gradient-text">Computational Innovation</span>
+            <span className="block gradient-text">Computational Innovation Tools and Solutions </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
